@@ -83,6 +83,20 @@ form select {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 500px) {
+  .showcase form input,
+  form select {
+    font-size: 14px;
+    width: 300px;
+    max-width: 300px;
+    padding: 0.5rem;
+  }
+
+  .showcase form select {
+    display: none;
+  }
+}
+
 form button {
   font-size: 20px;
   padding: 1rem 2rem;

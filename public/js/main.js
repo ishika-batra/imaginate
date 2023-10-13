@@ -6,7 +6,7 @@ function onSubmit(e) {
 
   const prompt = document.querySelector('#prompt').value;
   const size = document.querySelector('#size').value;
-
+  console.log(size);
   if (prompt === '') {
     alert('Please add some text');
     return;
